@@ -6,4 +6,5 @@ deployment:
   dockerhub:
     branch: master
     commands:
-      - $DOCKER_HUB_TRIGGER
+      - curl -H "Content-Type: application/json" --data '{"build": true}' -X POST https://registry.hub.docker.com/u/roberttaraya/hello-docker/trigger/ec146aae-f02d-4e03-88be-107df57a2667/
+
