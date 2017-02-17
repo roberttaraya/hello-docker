@@ -1,10 +1,4 @@
-FROM centos:centos6
-
-MAINTAINER robert.taraya@gmail.com
-
-RUN rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
-
-RUN yum install -y npm
+FROM node:alpine
 
 COPY . /src
 
