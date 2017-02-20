@@ -4,7 +4,7 @@
 
 This is a demo node.js app that I'm using to demonstrate a basic CI/CD workflow with Docker, specifically:
 
-Code -> Github -> CircleCI -> Docker Hub -> Docker Cloud -> AWS
+### Code -> Github -> CircleCI -> Docker Hub -> Docker Cloud -> AWS
 
 * pushing up clean code triggers the CI/CD workflow
 
